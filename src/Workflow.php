@@ -95,7 +95,7 @@ class Workflow
      *
      * @return string|null|array
      */
-    public function env(string $key = null, $default = null)
+    public function env(?string $key = null, $default = null)
     {
         if ($key === null) {
             return $_SERVER;
